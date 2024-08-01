@@ -14,7 +14,7 @@ pip install -r requirements.txt
 ## Основная модель
 Ноутбук для обучения - `main_train_test_notebooks/wav2vec2-base-wolf.ipynb`  
 Ноутбук для тестирования - `main_train_test_notebooks/wav2vec2-base-wolf-val.ipynb`  
-Лучшая обученная модель - `best_model/best.pth`
+Лучшая обученная модель - [kaggle](https://www.kaggle.com/models/ivankadilenko/wolf-dog-sound-recognition/)
 
 ### wav2vec2-base-wolf.ipynb
 Эта версия ноутбука использовалась при обучении лучшей полученной модели. В файле представлены наш класс модели, датасета, аугментации, циклы обучения и валидация. В нём автоматически создаётся csv файл с путями и метками классов для каждой аудиозаписи из датасет.
@@ -22,7 +22,7 @@ pip install -r requirements.txt
 ### wav2vec2-base-wolf-val.ipynb
 Получение метрик на тестовом датасете, вывод матрицы ошибок
 
-### best.pth
+### best.pth (Лежит на kaggle)
 Лучшая обученная версия модели. Параметры обучения можно посмотреть в `best_model/params.txt`. Её метрики на валидации и тесте можно посмотреть в `best_model/metrics.txt`
 
 ## Альтернативное решение
