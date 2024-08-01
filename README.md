@@ -31,7 +31,7 @@ pip install -r requirements.txt
 
 ## Дополнительные программы
 ### 1. AudioSetParser
-Файлы и скрипт нужные для скачивания данный из [AudioSet](https://research.google.com/audioset/)
+Файлы и скрипт нужные для скачивания данных из [AudioSet](https://research.google.com/audioset/)
 
 ### 2. speech-extractor
 Программа вырезающая человеческую речь из аудио
@@ -43,4 +43,4 @@ pip install -r requirements.txt
 Скрипт, который использовался для нарезки данных для основного [датасета](https://www.kaggle.com/datasets/ivankadilenko/wolf-dog-cutted-dataset). Если аудио слишком короткое, к нему присоединяются другие аудио того же, либо нулевого класса до тех пор, пока длинна не станет нужной. Если же оно слишком длинное, из его середины вырезается то количество фрагментов, которое туда помещается (Такие файлы лучше прослушать после нарезки). 
 
 ### 5. CryWolfParser
-Файлы и скрипт нужные для скачивания данный из [CryWolf](https://www.grizcam.com/crywolf)
+Файлы и скрипт нужные для скачивания данных из [CryWolf](https://www.grizcam.com/crywolf)
