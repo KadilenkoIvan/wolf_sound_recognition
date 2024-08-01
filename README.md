@@ -30,14 +30,14 @@ pip install -r requirements.txt
 Ноутбук - `alternative_model_notebooks/QWEEWQQWEEWQQWEEWQWEEWQQWE`
 
 ## Дополнительные программы
-### AudioSetParser
+### 1. AudioSetParser
 Файлы и скрипт нужные для скачивания данный из [AudioSet](https://research.google.com/audioset/)
 
-### speech-extractor
+### 2. speech-extractor
 Программа вырезающая человеческую речь из аудио
 
-### noise_processing.ipynb
+### 3. noise_processing.ipynb
 Обработка и удаление шума из аудиофайлов
 
-### split_and_merge_audio.ipynb
+### 4. split_and_merge_audio.ipynb
 Скрипт, который использовался для нарезки данных для основного [датасета](https://www.kaggle.com/datasets/ivankadilenko/wolf-dog-cutted-dataset). Если аудио слишком короткое, к нему присоединяются другие аудио того же, либо нулевого класса до тех пор, пока длинна не станет нужной. Если же оно слишком длинное, из его середины вырезается то количество фрагментов, которое туда помещается (Такие файлы лучше прослушать после нарезки). 
