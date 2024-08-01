@@ -8,7 +8,8 @@ pip install -r requirements.txt
   
 ## Датасеты
 Основной [датасет для обучения](https://www.kaggle.com/datasets/ivankadilenko/wolf-dog-cutted-dataset)  
-Тестовый [датасет](https://www.kaggle.com/datasets/ivankadilenko/wolf-dog-val) 
+Тестовый [датасет](https://www.kaggle.com/datasets/ivankadilenko/wolf-dog-val)    
+Другие используемые нами [датасеты](https://www.kaggle.com/ivankadilenko/datasets)
 
 ## Основная модель
 Ноутбук для обучения - main_train_test_notebooks/wav2vec2-base-wolf.ipynb  
