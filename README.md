@@ -27,7 +27,7 @@ pip install -r requirements.txt
 
 ## Альтернативное решение
 В этом решении обрабатываются не аудиофайлы, а их спектрограммы  
-Ноутбук - `alternative_model_notebooks/QWEEWQQWEEWQQWEEWQWEEWQQWE`
+Ноутбук - `alternative_model_notebooks/dog-and-wolf-classification.ipynb`
 
 ## Дополнительные программы
 ### 1. AudioSetParser
